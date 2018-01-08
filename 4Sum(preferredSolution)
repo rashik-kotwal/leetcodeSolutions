@@ -1,3 +1,5 @@
+//O(n^3 solution) , in general : O(n^(k-1) complexity , here k=4 )
+
 public List<List<Integer>> fourSum(int[] nums, int target)
 {
 	List<List<Integer>> res = new ArrayList<List<Integer>> ();
